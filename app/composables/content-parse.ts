@@ -58,6 +58,7 @@ const sanitizer = sanitize({
     rel: set('nofollow noopener noreferrer'),
     target: set('_blank'),
   },
+  div: {},
   span: {
     class: sanitizerBasicClasses,
   },
